@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Product.delete_all
+
+Product.create!(title: 'Ruby', description: "Ruby is the fastest dynamic language", image_url: 'ruby.jpg', price: 55.0)
